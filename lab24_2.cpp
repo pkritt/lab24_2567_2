@@ -12,6 +12,7 @@ void printList(list<string> s){
 	cout << "\n";	
 }
 
+
 int main(){
 	
 	list<string> line_up;

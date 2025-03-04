@@ -40,6 +40,7 @@ void List::insert(int d,int idx){
 	current->next = n;		
 }
 
+
 void List::show(){
 	Node *current = root;
 	cout << current->data << " ";	
@@ -48,7 +49,7 @@ void List::show(){
 		cout << current->data << " ";
 	}	
 }
-
+ 
 void List::append(int d){	
 	Node *n = new Node;
 	n->data = d; n->next = NULL;
